@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="mk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Слатка Приказна</title>
+  <link rel="icon" href="img/icon.ico">
+
+
+  <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="img/logo.jpg" alt="Слатка Приказна - лого">
+
+      <div class="title">
+        <span>Слатка Приказна</span>
+        <span>Слатки & Пијалоци</span>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="#aboutUs">За Нас</a>
+      <a href="#menu">Мени</a>
+      <a href="#specials">Комбо Понуди</a>
+      <a href="#contact">Локација & Контакт</a>
+    </nav>
+
+
+
+    <div class="search-box-container">
+      <input type="text" id="searchInput" class="search-input" placeholder="🔍 Барајте">
+    </div>
+
+
+    <a href="#contact" class="order-btn">
+      <img src="img/shopping-bag.png" alt="Нарачка">
+      <span>Нарачај Веднаш</span>
+    </a>
+
+
+  </header>
+
+
+  <main>
+    <section id="home">
+      <div>
+        <div>
+          <span>Добредојдовте во нашиот сладок агол</span>
+        </div>
+
+        <h1>
+          Секој загризок е
+          <span>нова приказна</span>
+        </h1>
+
+        <p>Уживајте во свежо подготвени домашни торти, десерти во чаша, крцкави вафли и ароматични топли и ладни
+          пијалоци. Создадено со љубов за вашите најубави моменти.</p>
+      </div>
+
+
+      <div>
+        <a href="#menu">
+          <span>Погледни мени</span>
+        </a>
+
+        <a href="#specials">
+          <span>Комбо Понуди</span>
+        </a>
+      </div>
+
+
+
+      <div>
+        <img src="img/belgian-cake.jpg" alt="Белгиска торта" width="500" height="400">
+
+        <div>
+          <div>
+            <p>Специјалитет на денот</p>
+            <p>Белгиска Чоколадна Фантазија</p>
+          </div>
+
+          <span>180 ден.</span>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="aboutUs">
+
+      <div class="about-image">
+        <div class="image">
+          <img src="img/cakes.jpg" alt="Колачи" width="300" height="300">
+          <img src="img/coffee.jpg" alt="Кафе" width="350" height="350">
+        </div>
+
+
+        <div class="image">
+          <img src="img/lemonade.jpg" alt="Пијалоци" width="300" height="300">
+          <img src="img/icecream.jpg" alt="Сладолед" width="350" height="350">
+        </div>
+      </div>
+
+      <div class="about-text-content">
+        <span>За нашиот бренд</span>
+
+        <h2> Место каде рецептите стануваат незаборавни спомени</h2>
+
+        <p>„Слатка Приказна“ започна како мал семеен сон за создавање простор каде традиционалните вкусови се среќаваат
+          со модерната слаткарска уметност.</p>
+
+        <p>Користиме исклучиво свежи, природни состојки, квалитетно белградско и белгиско чоколадо и свежо испечени зрна
+          еспресо. Секој наш десерт е рачно изработен со љубов за да ви донесеме насмевка на секој загризок.</p>
+
+        <div class="stats-container">
+          <div>
+            <span>100%</span>
+            <span>Природно</span>
+          </div>
+
+          <div>
+            <span>40+</span>
+            <span>Вкусови</span>
+          </div>
+
+          <div>
+            <span>5★</span>
+            <span>Квалитет</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="menu">
+      <span>Вкусете ја магијата</span>
+      <div>
+        <span>Нашето Мени</span>
+      </div>
+
+      <p>Одберете ги вашите омилени десерти и пијалоци подредени по категории.</p>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Сите</button>
+        <button class="filter-btn" data-filter="cakes">🎂 Торти</button>
+        <button class="filter-btn" data-filter="sweets">🍰 Слатки</button>
+        <button class="filter-btn" data-filter="desserts">🍧 Десерти во чаша</button>
+        <button class="filter-btn" data-filter="hot-drinks">☕ Топли пијалоци</button>
+        <button class="filter-btn" data-filter="cold-drinks">🍹 Ладни пијалоци</button>
+      </div>
+
+      <div class="menu-container">
+
+        <div class="menu-item" data-category="cakes">
+
+          <div class="belgian-cake">
+            <img src="img/belgian-cake.jpg" alt="Чоколадна торта" width="200" height="150">
+            <h3>Белгиска Чоколадна Торта </h3>
+            <span>180 ден.</span>
+            <p>Сочна торта со кадифен крем, прелиена со белгиско чоколадо и декоративни розети. Раскошно чоколадно
+              задоволство.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="cheesecake">
+            <img src="img/cheesecake.jpg" alt="Чизкејк" width="200" height="150">
+            <h3>Чизкејк со Шумско Овошје </h3>
+            <span>160 ден.</span>
+            <p>Крцкава подлога од бисквити со богат, кремаст слој од сирење, прелиен со сочен и освежителен слој од
+              шумско овошје. Неодолив класичен десерт со совршен баланс на вкусови.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+        </div>
+
+        <div class="menu-item" data-category="sweets">
+
+          <div class="belgian-waffles">
+            <img src="img/belgian-waffles.jpg" alt="Белгиска Вафла" width="200" height="150">
+            <h3>Белгиска Вафла</h3>
+            <span>130 ден.</span>
+            <p>Крцкави однадвор, а меки одвнатре – златни белгиски вафли прелиени со сладок сируп и гарнирани со свежи
+              јагоди и боровинки. Освежителна и совршена десертна класика.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="american-pancakes">
+            <img src="img/american-pancakes.jpg" alt="Американски палачинки со овошје" width="200" height="150">
+            <h3>Американски палачинки со овошје</h3>
+            <span>190 ден.</span>
+            <p>Меки и пуфкасти слоевити палачинки намажани со богато чоколадо, гарнирани со свежи парчиња бананa,
+              кремаст шлаг и крцкави јаткасти плодови. Совршено слатко уживање.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="croissant">
+            <img src="img/croissant.jpg" alt="Кроасан" width="200" height="150">
+            <h3>Француски кроасан со лешник крем</h3>
+            <span>80 ден.</span>
+            <p>Крцкав, свежо печен кроасан богат со кадифено мазен крем од лешници и декориран со сечкани лешници.
+              Совршено слатко задоволство за почеток на денот.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+        </div>
+
+        <div class="menu-item" data-category="desserts">
+
+          <div class="icecream">
+            <img src="img/icecream.jpg" alt="Сладолед" width="200" height="150">
+            <h3>Чоко-Ванила Сладолед</h3>
+            <span>170 ден.</span>
+            <p>Богати топки сладолед од чоколадо и ванила, прелиени со чоколаден сос, крцкави лешници и вафли. Врвно
+              чоколадно задоволство.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="panna-cotta">
+            <img src="img/panna-cotta.jpg" alt="Пана Кота" width="200" height="150">
+            <h3>Пана Кота со Јагоди</h3>
+            <span>140 ден.</span>
+            <p>Кремаст италијански десерт со ванила, прелиен со сочен сос од свежи јагоди. Освежителен, елегантен и
+              совршено балансиран десерт.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+        </div>
+
+        <div class="menu-item" data-category="hot-drinks">
+
+          <div class="macchiato">
+            <img src="img/caramel-latte-macchiato.jpg" alt="Макијато" width="200" height="150">
+            <h3>Топло Карамел Лате Макијато </h3>
+            <span>120 ден.</span>
+            <p>Топла хармонија од богато еспресо, кадифено млеко и сочна карамела. Совршено кремасто задоволство за
+              уживање во секоја голтка.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="cappuccino">
+            <img src="img/coffee.jpg" alt="Капучино" width="200" height="150">
+            <h3>Капучино</h3>
+            <span>100 ден.</span>
+            <p>Италијански класик со богато еспресо, топло млеко и кадифена, густа млечна пена. Совршено балансиран и
+              топол напиток за класично уживање.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+        </div>
+
+
+        <div class="menu-item" data-category="cold-drinks">
+
+          <div class="smoothie">
+            <img src="img/smoothie.jpg" alt="Смути" width="200" height="150">
+            <h3>Тропско Смути со Манго </h3>
+            <span>170 ден.</span>
+            <p>Освежителен и густ овошен напиток со сочно манго, тропски акорди и кремаста текстура. Совршен извор на
+              витамини и природна енергија за секој дел од денот.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="lemonade">
+            <img src="img/lemonade.jpg" alt="Лимонада" width="200" height="150">
+            <h3>Домашна Лимонада со Нане</h3>
+            <span>100 ден.</span>
+            <p>Природен и цитрусен пијалак од свежо цеден лимон и лимета, сервиран со коцки мраз и свежи листови нане.
+              Врвно киселкасто освежување за сите денови.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+          <div class="orange-carrot-juice">
+            <img src="img/orange-carrot-juice.jpg" alt="Цеден сок" width="200" height="150">
+            <h3>Свежо цеден сок (портокал & морков)</h3>
+            <span>150 ден.</span>
+            <p>Сочна комбинација од свеж портокал и сладок морков, исполнета со витамин Ц и бета-каротен. Природен
+              еликсир за имунитет, енергија и совршено освежување.</p>
+            <button>+ Нарачај</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="specials">
+      <div class="specials-container">
+
+        <div class="specials-promotion">
+          <span>Промоција</span>
+          <h2>Специјални Комбо Понуди</h2>
+          <p>Идеални комбинации на слатки и пијалоци по промотивни цени.</p>
+        </div>
+
+        <div class="specials-cards">
+
+          <div class="special-card-1">
+            <span class="special-badge">Утрински избор</span>
+            <div class="special-image-1">
+              <img src="img/coffee-card-1.jpg" alt="Капучино" width="50" height="50">
+            </div>
+            <h3>Утринска Хармонија</h3>
+            <p>Капучино по избор + Свеж француски кроасан со лешник крем.</p>
+
+            <div class="special-price">
+              <span class="special-price-1">160
+                <span>ден.</span>
+              </span>
+              <button>Нарачај</button>
+            </div>
+          </div>
+
+          <div class="special-card-2">
+            <span class="special-badge">Најпопуларно</span>
+            <div class="special-image-2">
+              <img src="img/cake-card-2.jpg" alt="Чоколадна торта" width="50" height="50">
+            </div>
+            <h3>Сладок Момент</h3>
+            <p>Парче Белгиска Чоколадна Торта + Карамел Лате Макијато.</p>
+
+            <div class="special-price">
+              <span class="special-price-2">240
+                <span>ден.</span>
+              </span>
+              <button>Нарачај</button>
+            </div>
+          </div>
+
+          <div class="special-card-3">
+            <span class="special-badge">Освежување</span>
+            <div class="special-image-3">
+              <img src="img/glass-card-3.jpg" alt="Свеж овошен сок" width="50" height="50">
+            </div>
+            <h3>Витаминска Бомба</h3>
+            <p>Свежо цеден сок (портокал & морков) + Американски палачинки со овошје.</p>
+
+            <div class="special-price">
+              <span class="special-price-3">220
+                <span>ден.</span>
+              </span>
+              <button>Нарачај</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+
+        <div class="contact-left">
+          <div>
+            <span>Посетете нè</span>
+            <h2>Локација & Работно Време</h2>
+            <p>Ве очекуваме во нашиот топол и пријатен пастелен амбиент.</p>
+          </div>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <img src="img/location.jpg" alt="Адреса">
+              </div>
+              <div>
+                <h4>Адреса</h4>
+                <p>Улица „Слаткарска“ бр. 12, Скопје, Македонија</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <img src="img/hours.jpg" alt="Работно Време">
+              </div>
+              <div>
+                <h4>Работно Време</h4>
+                <p>Понеделник - Сабота: 08:00 - 22:00 ч.</p>
+                <p>Недела: 09:00 - 20:00 ч.</p>
+              </div>
+            </div>
+
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <img src="img/phone.jpg" alt="Контакт">
+              </div>
+              <div>
+                <h4>Контакт & Нарачки</h4>
+                <p>+389 (0)70 123 456</p>
+                <p>info@slatkaprikazna.mk</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <p>Следете нè за слатки новости</p>
+            <div class="socila-links">
+              <img src="img/instagram.png" alt="IG">
+              <img src="img/facebook.png" alt="FB">
+              <img src="img/tiktok.png" alt="TT">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="contact-right">
+          <form>
+            <h3>Испратете ни порака</h3>
+            <p>Имате прашање, барање за Торта за Роденден или резервација?</p>
+
+            <div>
+              <label for="name">Име и Презиме</label>
+              <input id="name" name="name" type="text" placeholder="пр. Антонела Тончич" required>
+            </div>
+
+            <div>
+              <label for="phone">Телефонски Број</label>
+              <input id="phone" name="phone" type="tel" placeholder="07X XXX XXX" required>
+            </div>
+
+            <div>
+              <label for="message">Порака / Забелешка</label>
+              <textarea id="message" name="message" placeholder="Напишете ги вашите желби..." rows="4"
+                required></textarea>
+            </div>
+
+            <button type="submit">Испрати Порака</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo-area">
+        <div class="footer-icon-box">
+          <img src="img/logo.jpg" alt="Слатка Приказна - лого">
+        </div>
+        <span>Слатка Приказна</span>
+      </div>
+
+      <p>Создаваме слатки моменти и незаборавни вкусови секој ден.</p>
+      <p>Ви благодариме за довербата!</p>
+
+      <div class="footer-bottom">
+        © 2026 Слатка Приказна. Сите права се задржани.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <div id="orderModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-icon">🛒</div>
+      <h2>Брза Нарачка</h2>
+      <p>Избран производ: <span id="modalProductName">Име на производ</span></p>
+
+      <form id="orderForm">
+        <label for="quantity">КОЛИЧИНА</label>
+        <input type="number" id="quantity" value="1" min="1" required>
+
+        <label for="customerName">ВАШЕТО ИМЕ</label>
+        <input type="text" id="customerName" placeholder="Име и Презиме" required>
+
+        <label for="customerPhone">ТЕЛЕФОН ЗА ПОТВРДА</label>
+        <input type="tel" id="customerPhone" placeholder="07X XXX XXX" required>
+
+        <button type="submit" class="submit-order-btn">Потврди Нарачка</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
